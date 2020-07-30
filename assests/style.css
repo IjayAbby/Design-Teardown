@@ -42,9 +42,24 @@ input {
     margin-right: 20px;
     padding: 16px 16px 16px 54px;
     border-radius: 10px;
-    border: dotted;
 }
 
 .nav-button {
     padding: 7px 15px 7px 15px;
 }
+
+.search {
+    position: absolute;
+    top: 38px;
+    margin-left: 10px;
+}
+
+.fa-search {
+    color: #c74211;
+}
+
+::placeholder { 
+    font-size: 20px;
+    font-weight: bold;
+  }
+
