@@ -184,11 +184,14 @@ figure {
   margin-left: 50px;
 }
 
-figure img {
+.tilt {
+  border: 3px solid;
+  margin-left: 20px;
   transform: rotate(-20deg);
+  border-radius: 10px;
 }
 
-figure img:hover {
+.tilt:hover {
   transform: rotate(0deg);
   transition: 0.2s;
 }
@@ -259,4 +262,66 @@ span {
   border: none;
   border-radius: 10px;
   margin: 40px 0 40px 0;
+}
+
+
+.latest-articles-div {
+  margin: 40px 0 40px 0;
+}
+
+.latest-articles {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.latest-articles a {
+  color: black;
+}
+
+.latest-articles hr {
+  width: 220px;
+  height: 5px;
+  background-color: #bc3428;
+}
+
+.table-contents-section {
+  background-color: #1a71bb;
+  padding: 80px;
+  width: 100%;
+  min-height: 200px;
+}
+
+.table-contents img {
+  width: 1000px;
+}
+
+.shipping-now {
+  width: 800px;
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+}
+
+.shipping-now h2 {
+  font-size: 40px;
+}
+
+.person-week-section {
+  margin-top: 70px;
+}
+
+.person-week img {
+  border: #c7372a 5px solid;
+  margin-left: 40px;
+}
+
+.person-week-paragraph {
+  width: 800px;
+  margin: 0 auto;
+  font-size: 20px;
+  color: #363636;
+}
+
+.person-week-paragraph h2 {
+  margin: 0 0 20px 0;
 }
