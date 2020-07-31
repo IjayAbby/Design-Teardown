@@ -100,6 +100,7 @@ input {
 .container {
   grid-template-columns: repeat(2, 1fr);
   position: relative;
+  margin-bottom: 50px;
 }
 
 .headings {
@@ -147,15 +148,16 @@ h1 span {
 }
 
 .arrow {
-  position: relative;
+  position: absolute;
   font-size: 30px;
   text-decoration: none;
-  top: 150px;
+  bottom: 0;
+  left: 0;
+  padding: 50px;
 }
 
 .arrow:hover {
-  border: solid thin blue;
-  border-width: 50px;
+  background-color: blue;
 }
 
 .card-img {
@@ -205,13 +207,21 @@ figcaption {
 }
 
 .design-info {
+  padding: 20px;
+  position: relative;
   margin: 20px 0 0 20px;
   height: 500px;
+  transition: all .3s ease-in-out;
 }
 
 .design-info:hover {
   background-color: #fff;
-  padding: 30px 40px 0 40px;
+  /* padding: 30px 40px 0 40px; */
+  transform: scale(1.1);
+  box-shadow: 2px 1px 29px 0px rgba(0,0,0,0.75); 
+}
+.design-info:hover .arrow {
+  background-color: blue;
 }
 
 .design-info h3 {
@@ -324,4 +334,8 @@ span {
 
 .person-week-paragraph h2 {
   margin: 0 0 20px 0;
+}
+
+.author-contents {
+  margin: 0 auto;
 }
