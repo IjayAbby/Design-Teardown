@@ -20,9 +20,13 @@ a {
   display: grid;
 }
 
+.grey-background {
+  background-color: #f6f3f2;
+}
+
 /* navigation */
 
-nav {
+.nav {
   background-color: #d33a2c;
 }
 
@@ -195,8 +199,8 @@ figcaption {
 
 .container-two {
   grid-template-columns: repeat(3, 1fr);
-  background-color: #f6f3f2;
 }
+
 .design-info {
   margin: 20px 0 0 20px;
   height: 500px;
@@ -212,6 +216,7 @@ figcaption {
   text-decoration: underline;
   margin-bottom: 20px;
 }
+
 .design-info p {
   font-size: 25px;
   margin-top: 20px;
@@ -219,4 +224,38 @@ figcaption {
 
 span {
   text-decoration: underline;
+}
+
+.smashing-members {
+  grid-template-columns: 70% 30%;
+  height: 620px;
+}
+
+.singing-barista {
+  font-size: 25px;
+}
+
+.singing-barista h2 {
+  text-decoration: underline;
+}
+
+.singing-barista img {
+  width: 250px;
+}
+
+.singing-barista .singing-barista-content {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+
+}
+
+.singing-barista button {
+  color: blue;
+  background-color: #fff;
+  padding: 0.75em 1em;
+  border: none;
+  border-radius: 10px;
+  margin: 40px 0 40px 0;
 }
