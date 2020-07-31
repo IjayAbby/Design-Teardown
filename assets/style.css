@@ -20,7 +20,6 @@ a {
   display: grid;
 }
 
-
 /* navigation */
 
 nav {
@@ -144,8 +143,15 @@ h1 span {
 }
 
 .arrow {
-  position: absolute;
-  width: 70px;
+  position: relative;
+  font-size: 30px;
+  text-decoration: none;
+  top: 150px;
+}
+
+.arrow:hover {
+  border: solid thin blue;
+  border-width: 50px;
 }
 
 .card-img {
@@ -180,8 +186,37 @@ figure img {
 
 figure img:hover {
   transform: rotate(0deg);
-  transition: .2s;
+  transition: 0.2s;
 }
 
 figcaption {
   margin: 20px 0 0 20px;
+}
+
+.container-two {
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #f6f3f2;
+}
+.design-info {
+  margin: 20px 0 0 20px;
+  height: 500px;
+}
+
+.design-info:hover {
+  background-color: #fff;
+  padding: 30px 40px 0 40px;
+}
+
+.design-info h3 {
+  font-size: 25px;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+.design-info p {
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+span {
+  text-decoration: underline;
+}
