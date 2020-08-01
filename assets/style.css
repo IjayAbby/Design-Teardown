@@ -187,7 +187,7 @@ figure {
 }
 
 .tilt {
-  border: 3px solid;
+  /* border: 3px solid; */
   margin-left: 20px;
   transform: rotate(-20deg);
   border-radius: 10px;
@@ -349,4 +349,85 @@ span {
 
 .author p {
   font-size: 15px;
+}
+
+.design-section {
+  height: 350px;
+  justify-content: space-between;
+}
+.design-system-p {
+  width: 800px;
+  margin:50px 0 50px 0;
+}
+.design-systems {
+  margin-left: 50px;
+  color: #fff
+}
+.design-systems h2 {
+  margin: 20px 0 30px 0;
+}
+
+.design-systems h3 {
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+.design-systems button { 
+  color: blue;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+.handbook {
+  width: 250px;
+  position: relative;
+  bottom: 80px;
+  right: 80px;
+}
+
+.main-smashing-guide {
+  gap: 2em;
+  height: 1000px;
+}
+
+.smashing-guides {
+  margin: 100px 0 0 50px;
+  width: 500px;
+  height: 400px;
+  background-color:yellow;
+  border-radius: 10px;
+}
+
+.smashing-guides h2 {
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+.smashing-guides h3 {
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+.sub-smashing-guides {
+  width: 450px;
+  background-color: red;
+  margin: 0 auto;
+  height: 320px;
+}
+
+.smashing-guides-1 {
+  width: 500px;
+  height: 650px;
+  background-color: blue;
+  margin-left: 50px;
+  border-radius: 10px;
+}
+
+.sub-smashing-guides-1 {
+  width: 450px;
+  background-color: red;
+  margin: 20px auto 0 auto;
+  height: 250px;
 }
