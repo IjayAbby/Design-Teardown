@@ -355,14 +355,17 @@ span {
   height: 350px;
   justify-content: space-between;
 }
+
 .design-system-p {
   width: 800px;
-  margin:50px 0 50px 0;
+  margin: 50px 0 50px 0;
 }
+
 .design-systems {
   margin-left: 50px;
   color: #fff
 }
+
 .design-systems h2 {
   margin: 20px 0 30px 0;
 }
@@ -372,7 +375,7 @@ span {
   text-decoration: underline;
 }
 
-.design-systems button { 
+.design-systems button {
   color: blue;
   padding: 20px;
   border-radius: 15px;
@@ -380,6 +383,7 @@ span {
   font-size: 20px;
   font-weight: bold;
 }
+
 .handbook {
   width: 250px;
   position: relative;
@@ -389,14 +393,14 @@ span {
 
 .main-smashing-guide {
   gap: 2em;
-  height: 1000px;
+  height: 1200px;
 }
 
 .smashing-guides {
   margin: 100px 0 0 50px;
   width: 500px;
   height: 400px;
-  background-color:yellow;
+  background-color: yellow;
   border-radius: 10px;
 }
 
@@ -426,8 +430,11 @@ span {
 }
 
 .sub-smashing-guides-1 {
+
   width: 450px;
   background-color: red;
   margin: 20px auto 0 auto;
   height: 250px;
 }
+
+.smashing-guides-2 {}
