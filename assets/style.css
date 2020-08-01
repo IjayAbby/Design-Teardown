@@ -196,6 +196,7 @@ figure {
 .tilt:hover {
   transform: rotate(0deg);
   transition: 0.2s;
+  box-shadow: lightgrey;
 }
 
 figcaption {
@@ -218,8 +219,9 @@ figcaption {
   background-color: #fff;
   /* padding: 30px 40px 0 40px; */
   transform: scale(1.1);
-  box-shadow: 2px 1px 29px 0px rgba(0,0,0,0.75); 
+  box-shadow: 2px 1px 29px 0px rgba(0, 0, 0, 0.75);
 }
+
 .design-info:hover .arrow {
   background-color: blue;
 }
@@ -276,7 +278,7 @@ span {
 
 
 .latest-articles-div {
-  margin: 40px 0 40px 0;
+  margin: 120px 0 120px 0;
 }
 
 .latest-articles {
@@ -338,4 +340,13 @@ span {
 
 .author-contents {
   margin: 0 auto;
+  width: 400px;
+}
+
+.author-contents h3 {
+  font-size: 30px;
+}
+
+.author p {
+  font-size: 15px;
 }
