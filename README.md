@@ -1,3 +1,51 @@
-# linter-template
 
-This linters template using the webhint and stylelint through github workflow
+ This is a Smashing Magazine clone created on a grayscale heat map of the website that indicates which elements have the greatest weight in the visual hierarchy page.
+
+
+## Screenshots of our cloned website
+
+![Screenshot from 2020-08-03 15-39-47](https://user-images.githubusercontent.com/43843720/89183972-bec0a000-d5a0-11ea-955c-864bf0aaa20b.png)
+
+
+The project is built using HTML and CSS with an extensive use of the grid, flex and css properties. It also combined the fonts and typography properties which brings out the different color shades on gray-scale.
+
+## Built With
+
+- HTML
+- CSS3
+- Font awesome icons
+
+## Live Demo
+
+[Live Demo Link](https://raw.githack.com/RICKCOYL/Design-Teardown/homepage/index.html)
+
+## To get a local copy up and running follow these simple example steps.
+
+### Setup
+
+Clone the project locally.
+
+### Linters
+
+1. run `npm install`.
+2. run `npm run test` to check the Html and Css files.
+
+### Deployment
+
+Install and run a live server plugin on you IDE/Text editor and run it from the root directory.
+
+## Authors
+
+👤 **Rick Oburu**
+ [@RICKCOYL](https://github.com/RICKCOYL)
+
+👤 **Ijay Abby**
+  [@IjayAbby](https://github.com/IjayAbby)
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT]licensed.
