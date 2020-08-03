@@ -21,20 +21,20 @@
       <li><a class="hover white-background" href="">Events</a></li>
       <li><a class="hover white-background" href="">Membership</a></li>
       <li>
-        <button type="button" class="nav-button flex white-background">
-          <span>More</span>
-          <img class="button-image" src="assets/images/button-cat.svg" alt="" />
+        <button type="button" class="nav-button flex white-background relative">
+          <span class="relative">More</span>
+          <img class="button-image absolute" src="assets/images/button-cat.svg" alt="" />
         </button>
       </li>
       <li>
         <input class="flex" type="search" placeholder="Search articles" />
-        <span><i class="fas fa-search search"></i></span>
+        <span><i class="fas fa-search search absolute"></i></span>
       </li>
     </ul>
   </nav>
   <!--  main-showcase -->
   <section class="container grid">
-    <h1>Don't Miss These Latest <br /> <span>Articles</span></h1>
+    <h1 class="absolute">Don't Miss These Latest <br /> <span>Articles</span></h1>
 
     <div class="card card-1 white-background">
       <div class="card-content">
@@ -72,7 +72,7 @@
       </div>
       <i class="fas fa-arrow-right"></i>
     </div>
-    <div class="card card-4 white-background">
+    <div class="card card-1 white-background">
       <div class="card-content">
         <figure class="flex">
           <img class="card-img tilt" src="./assets/images/blessing-krofegha-200x200.jpg" alt="" />
@@ -85,7 +85,7 @@
     </div>
   </section>
   <section class="grid container-two">
-    <div class="design-info">
+    <div class="design-info relative">
       <h6>4 DAYS AGO</h6>
       <h3>Create Responsive Dashboard</h3>
       <span>by Rick Oburu</span>
@@ -202,7 +202,7 @@
   <div class="latest-articles-div">
     <div class="latest-articles">
       <a href="">SEE ALL LATEST ARTICLES→</a>
-      <hr>
+      <hr class="card-1">
     </div>
   </div>
   <section class="table-contents-section">
@@ -342,8 +342,9 @@
   <div class="latest-articles-div">
     <div class="latest-articles">
       <a href="">MORE LINKS ON TWITTER→</a>
-      <hr>
+      <hr class="card-1">
     </div>
+
   </div>
   <section class="design-section flex nav">
     <div class="design-systems white-background">
@@ -358,26 +359,27 @@
       <button type="button">Jump to table of contents&nbsp;↬</button>
     </div>
     <div class="book">
-      <img class="handbook tilt" src="assets/images/design-systems-hardcover-book.png" alt="">
+      <img class="handbook tilt relative" src="assets/images/design-systems-hardcover-book.png" alt="">
     </div>
   </section>
 
   <section class="grid container main-smashing-guide">
-    <div class="smashing-guides">
-      <div class="sub-smashing-guides js-header">
+    <div class="smashing-guides first-card relative">
+      <div class="sub-smashing-guides js-header ">
         <h2>A SMASHING GUIDE TO</h2>
         <h3>JavaScript & Frameworks</h3>
         <div class="smashing-content">
           <p>
             React, Vue, or perhaps the lightweight Alpine.js? Whether you are an experienced JavaScript developer
-            working with one of these frameworks, or just starting to learn, our authors have created some tutorials for
+            working with one of these frameworks, or just starting to learn, our authors have created some tutorials
+            for
             you.
           </p>
         </div>
         <button type="button" class="js-button white-background">Explore JavaScript & Frameworks</button>
       </div>
     </div>
-    <div class="smashing-guides">
+    <div class="smashing-guides second-card relative">
       <div class="sub-smashing-guides css-header">
         <h2>A SMASHING GUIDE TO</h2>
         <h3>CSS Layout</h3>
@@ -391,7 +393,7 @@
         <button type="button" class="layout-button white-background">Explore CSS Layout</button>
       </div>
     </div>
-    <div class="smashing-guides-1 web-header">
+    <div class="smashing-guides-1 web-header first-card relative">
       <div class="sub-smashing-guides-1">
         <h5>A SMASHING GUIDE TO</h5>
         <h3>Web Performance</h3>
@@ -405,7 +407,7 @@
         <button type="button" class="explore-button white-background">Explore Performance</button>
       </div>
     </div>
-    <div class="newsletter smashing-guides-1 email-header">
+    <div class="newsletter smashing-guides-1 email-header second-card relative">
       <div class="smashing-content">
         <img src="assets/images/cat.png" alt="">
         <div class="newsletter-section white-background">
@@ -417,7 +419,7 @@
             information that can help you build a fast site, and keep it fast.
           </p>
           <input class="meow-input" type="text" placeholder="Your Email">
-          <button type="button" class="meow-button white-background">Meow!</button>
+          <button type="button" class="meow-button white-background relative">Meow!</button>
           <div class="frontend-ux">
             <p>
               Front-end, UX and design. 2× a month.
@@ -428,20 +430,20 @@
       </div>
     </div>
   </section>
-  <div class="latest-articles-div">
-    <div class="latest-articles">
-      <a class="see-all-guides" href="">SEE ALL GUIDES→</a>
-      <hr>
-    </div>
+
+  <div class="latest-articles">
+    <a href="">SEE ALL GUIDES→</a>
+    <hr class="card-1">
   </div>
 
   <!-- footer -->
-  <footer class="nav">
-    <section class="footer-section">
-      <h3 class="white-background">BROWSE ALL SMASHING MAGAZINE TOPICS</h3>
+  <footer class="nav relative">
+    <section class="footer-section relative ">
 
-      <div class="footer-links">
-        <ul class=" browse-links flex">
+      <h3 class="relative white-background">BROWSE ALL SMASHING MAGAZINE TOPICS</h3>
+
+      <div class="first-ul flex">
+        <ul class="flex browse-links ">
           <li><a href="">Accessibility</a></li>
           <li><a href="">Android</a></li>
           <li><a href="">Animation</a></li>
@@ -455,7 +457,9 @@
       </div>
 
 
-      <div class="footer-links">
+
+
+      <div class="first-ul flex">
         <ul class="browse-links flex">
           <li><a href="">Freebies</a></li>
           <li><a href="">Graphics</a></li>
@@ -469,7 +473,9 @@
         </ul>
       </div>
 
-      <div class="footer-links">
+
+
+      <div class="first-ul flex">
         <ul class="browse-links flex">
           <li><a href="">Perfomance</a></li>
           <li><a href="">Photoshop</a></li>
@@ -481,7 +487,7 @@
         </ul>
       </div>
 
-      <div class="footer-links">
+      <div class="first-ul flex">
         <ul class="browse-links flex">
           <li><a href="">UI</a></li>
           <li><a href="">Usability</a></li>
@@ -493,8 +499,10 @@
         </ul>
       </div>
 
+      <img class="bird-cage" src="./assets/images/bird-in-cage.svg" alt="">
 
-      <div class="footer-links white-background">
+
+      <div class="footer-paragraphs white-background">
         <p>With a commitment to quality content for the design community.</p>
         <p>Founded by Vitaly Friedman and Sven Lennartz. 2006–2020.
         </p>
@@ -502,9 +510,11 @@
         <p>Fonts by <a href="">Latinotype</a>.</p>
       </div>
 
-      <img class="bird-cage" src="./assets/images/bird-in-cage.svg" alt="">
 
-      <div class="contact-info footer-links ">
+
+
+
+      <div class="first-ul flex last-links">
         <ul class="flex">
           <li><a href="">Write for us</a></li>
           <li><a href="">Contact Us</a></li>
@@ -512,13 +522,17 @@
           <li><a href="">Privacy policy</a></li>
         </ul>
       </div>
-      <div class="last-contact-info footer-links">
+
+
+      <div class="first-ul flex last-links">
         <ul class="flex">
           <li><a href="">Membership login</a></li>
           <li><a href="">Delivery times</a></li>
           <li><a href="">Advertise</a></li>
         </ul>
+
       </div>
+
 
     </section>
 

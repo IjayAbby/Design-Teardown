@@ -7,6 +7,7 @@
 body {
   filter: grayscale(1);
   background-color: #f6f3f2;
+  height: 100%;
 }
 
 .white-background {
@@ -27,6 +28,14 @@ a {
 
 .grid {
   display: grid;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
 }
 
 /* navigation */
@@ -62,7 +71,6 @@ input {
 .nav-button {
   background-color: #a82d22;
   padding: 10px 30px;
-  position: relative;
   font-size: 21px;
   font-weight: bold;
   border-radius: 10px;
@@ -75,14 +83,12 @@ input {
 }
 
 .button-image {
-  position: absolute;
   width: 30px;
   margin-bottom: 100px;
   margin-left: 40px;
 }
 
 .search {
-  position: absolute;
   top: 38px;
   margin-left: 10px;
 }
@@ -102,13 +108,8 @@ input {
   margin-bottom: 50px;
 }
 
-.headings {
-  position: absolute;
-}
-
 h1 {
   text-decoration: none;
-  position: absolute;
   left: 0;
   margin-left: 50%;
   transform: translateX(-50%);
@@ -176,10 +177,6 @@ h1 {
   background-color: #b13125;
 }
 
-.card-4 {
-  background-color: #bc3428;
-}
-
 figure {
   margin-left: 50px;
 }
@@ -205,7 +202,6 @@ figcaption {
 
 .design-info {
   padding: 20px;
-  position: relative;
   margin: 20px 0 0 20px;
   height: 500px;
   transition: all 0.3s ease-in-out;
@@ -285,7 +281,6 @@ footer a {
 .latest-articles hr {
   width: 220px;
   height: 5px;
-  background-color: #bc3428;
 }
 
 .table-contents-section {
@@ -380,7 +375,6 @@ footer a {
 
 .handbook {
   width: 250px;
-  position: relative;
   bottom: 80px;
   right: 80px;
 }
@@ -392,10 +386,18 @@ footer a {
 
 .smashing-guides {
   margin: 100px 0 0 50px;
-  width: 500px;
+  width: 600px;
   height: 400px;
   background-color: #fff;
   border-radius: 10px;
+}
+
+.first-card {
+  left: 30px;
+}
+
+.second-card {
+  right: 30px;
 }
 
 .smashing-guides h2 {
@@ -412,6 +414,7 @@ footer a {
 }
 
 .sub-smashing-guides {
+  background-color: #fff;
   width: 450px;
   margin: 0 auto;
   height: 320px;
@@ -423,7 +426,7 @@ footer a {
   font-size: 20px;
   font-weight: bold;
   background-color: #2caa72;
-  margin-top: 50px;
+  margin-top: 40px;
   border: none;
 }
 
@@ -445,7 +448,7 @@ footer a {
 }
 
 .smashing-guides-1 {
-  width: 500px;
+  width: 600px;
   height: 650px;
   background-color: #fff;
   margin-left: 50px;
@@ -482,6 +485,7 @@ footer a {
 .smashing-content img {
   width: 500px;
   height: 300px;
+  margin: 0 auto;
 }
 
 .newsletter-section {
@@ -501,7 +505,6 @@ footer a {
 .meow-button {
   padding: 17px 35px;
   border-radius: 10px 10px 10px 0;
-  position: relative;
   right: 33px;
   border: none;
   background-color: #0467b8;
@@ -530,50 +533,44 @@ footer a {
   font-size: 20px;
 }
 
+/* footer */
 footer {
   text-align: center;
-  height: 645px;
-}
-
-footer ul li {
-  text-align: center;
-  margin-right: 15px;
-}
-
-.footer-links {
-  width: 1100px;
-  margin: 20px auto 0 auto;
-}
-
-.footer-section {
-  padding-top: 150px;
-  position: relative;
+  margin-top: 60px;
 }
 
 .footer-section h3 {
-  margin-bottom: 50px;
+  margin: 0 0 150px 0;
+  top: 100px;
+}
+
+.first-ul {
+  justify-content: center;
 }
 
 .browse-links li {
   font-size: 25px;
+  margin: 10px 12px;
 }
 
 .bird-cage {
+  float: left;
   width: 200px;
-  position: absolute;
-  right: 1000px;
-  top: 430px;
 }
 
-.contact-info ul {
-  justify-content: center;
-  text-decoration: underline;
+.main-footer-container {
+  margin-top: 50px;
 }
 
-.last-contact-info ul {
-  justify-content: center;
+.footer-paragraphs {
+  margin: 20px 0;
 }
 
-.last-contact-info ul li a {
+.footer-paragraphs p {
+  margin-top: 10px;
+}
+
+.last-links li {
+  margin: 10px 12px;
   text-decoration: underline;
 }
