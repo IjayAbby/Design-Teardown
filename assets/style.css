@@ -4,9 +4,10 @@
   box-sizing: border-box;
 }
 
-/*body {
-  filter: grayscale(1);
-}*/
+body {
+  /* filter: grayscale(1); */
+  background-color: #f6f3f2;
+}
 
 ul {
   list-style: none;
@@ -24,9 +25,6 @@ a {
   display: grid;
 }
 
-.grey-background {
-  background-color: #f6f3f2;
-}
 
 /* navigation */
 
@@ -442,22 +440,6 @@ span {
   border: none;
 }
 
-.smashing-guides-1 {
-  width: 500px;
-  height: 650px;
-  background-color: blue;
-  margin-left: 50px;
-  border-radius: 10px;
-}
-
-.sub-smashing-guides-1 {
-
-  width: 450px;
-  background-color: red;
-  margin: 20px auto 0 auto;
-  height: 250px;
-}
-
 .css-header h3 {
   color: #ff5e38;
   font-size: 45px;
@@ -476,8 +458,87 @@ span {
   color: #fff;
 }
 
-.smashing-guides-2 {}
+.smashing-guides-1 {
+  width: 500px;
+  height: 650px;
+  background-color:#fff;
+  margin-left: 50px;
+  border-radius: 10px;
+}
 
+.web-header h3{
+  font-size: 40px;
+  text-decoration: underline;
+  margin-bottom: 20px;
+  color: #ac5795;
+}
+.sub-smashing-guides-1 {
+  width: 450px;
+  margin: 20px auto 0 auto;
+  height: 250px;
+}
+
+.explore-button {
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 50px;
+  background-color: #ac5795;
+  color: #fff;
+}
+
+.newsletter {
+  background-color: #1b71bb;
+  background-image: linear-gradient(#1b71bb 60%,#01a6c1 100%);
+} 
+
+.smashing-content img {
+  width: 500px;
+  height: 300px;
+}
+
+.newsletter-section {
+  width: 450px;
+  margin: 0 auto;
+  color: #fff;
+}
+.newsletter-section p {
+  margin: 20px 0 ;
+}
+.email-header h3 {
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+.meow-button {
+  padding: 17px 35px;
+  border-radius: 10px 10px 10px 0;
+  position: relative;
+  right: 33px;
+  border:none;
+  background-color: #0467b8;
+  color: #fff;
+}
+
+.meow-input {
+  padding: 17px 35px;
+  border-radius: 10px 0 10px 10px;
+  border:none;
+}
+
+.frontend-ux {
+  background-color: #0067b859;
+  width: 300px;
+  height: 50px;
+  margin: 0 auto;
+  border-radius: 10px;F
+}
+
+.frontend-ux p {
+  line-height: 1.5em;
+  font-size : .9em;
+}
 
 .see-all-guides {
   font-size: 20px;
