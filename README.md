@@ -37,16 +37,10 @@ Install and run a live server plugin on you IDE/Text editor and run it from the 
 ## Authors
 
 👤 **Rick Oburu**
-
-- Github: [@githubhandle](https://github.com/RICKCOYL )
-- Twitter: [@twitterhandle](https://twitter.com/rickoburu)
-- Linkedin: [linkedin](https://www.linkedin.com/in/rick-oburu-8627591a4/ )
+ [@RICKCOYL](https://github.com/RICKCOYL)
 
 👤 **Ijay Abby**
-
-- Github: [@githubhandle](https://github.com/ijayabby)
-- Twitter: [@twitterhandle](https://twitter.com/ijay_js)
-- Linkedin: [linkedin](https://www.linkedin.com/in/ijayabby4/)
+  [@IjayAbby](https://github.com/IjayAbby)
 
 ## Show your support
 
