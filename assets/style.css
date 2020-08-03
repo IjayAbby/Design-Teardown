@@ -408,25 +408,38 @@ span {
   margin: 100px 0 0 50px;
   width: 500px;
   height: 400px;
-  background-color: yellow;
+  background-color: #fff;
   border-radius: 10px;
 }
 
 .smashing-guides h2 {
   margin-top: 20px;
+  padding-top: 20px;
   font-size: 15px;
 }
 
-.smashing-guides h3 {
+.js-header h3 {
   font-size: 40px;
   text-decoration: underline;
+  color: #2CAA72;
+  margin-bottom: 30px;
 }
 
 .sub-smashing-guides {
   width: 450px;
-  background-color: red;
   margin: 0 auto;
   height: 320px;
+}
+
+.js-button {
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #2CAA72;
+  color: #fff;
+  margin-top: 50px;
+  border: none;
 }
 
 .smashing-guides-1 {
@@ -443,6 +456,24 @@ span {
   background-color: red;
   margin: 20px auto 0 auto;
   height: 250px;
+}
+
+.css-header h3 {
+  color: #ff5e38;
+  font-size: 45px;
+  text-decoration: underline;
+  margin-bottom: 25px;
+}
+
+.layout-button {
+  padding: 20px;
+  font-weight: bold;
+  background-color: #ff5e38;
+  margin-top: 50px;
+  border-radius : 10px;
+  font-size: 20px;
+  border: none;
+  color: #fff;
 }
 
 .smashing-guides-2 {}
