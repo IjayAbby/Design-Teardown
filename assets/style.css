@@ -5,8 +5,12 @@
 }
 
 body {
-  /* filter: grayscale(1); */
+  filter: grayscale(1);
   background-color: #f6f3f2;
+}
+
+.white-background {
+  color: #fff;
 }
 
 ul {
@@ -25,7 +29,6 @@ a {
   display: grid;
 }
 
-
 /* navigation */
 
 .nav {
@@ -41,10 +44,6 @@ a {
   align-items: center;
   font-weight: bold;
   font-size: 21px;
-}
-
-.nav-links a {
-  color: #fff;
 }
 
 .hover:hover {
@@ -66,7 +65,6 @@ input {
   position: relative;
   font-size: 21px;
   font-weight: bold;
-  color: #fff;
   border-radius: 10px;
   border: none;
 }
@@ -117,14 +115,9 @@ h1 {
   background-color: #fff;
   text-align: center;
   margin-top: 50px;
-  padding: .3em .4em;
+  padding: 0.3em 0.4em;
   line-height: 1.5em;
   box-decoration-break: clone;
-}
-
-
-h1 span {
-  border-left: 12px;
 }
 
 .articles {
@@ -150,7 +143,6 @@ h1 span {
 
 .card {
   height: 716px;
-  color: #fff;
 }
 
 .arrow {
@@ -193,7 +185,6 @@ figure {
 }
 
 .tilt {
-  /* border: 3px solid; */
   margin-left: 20px;
   transform: rotate(-20deg);
   border-radius: 10px;
@@ -202,7 +193,6 @@ figure {
 .tilt:hover {
   transform: rotate(0deg);
   transition: 0.2s;
-  box-shadow: lightgrey;
 }
 
 figcaption {
@@ -218,14 +208,13 @@ figcaption {
   position: relative;
   margin: 20px 0 0 20px;
   height: 500px;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .design-info:hover {
   background-color: #fff;
-  /* padding: 30px 40px 0 40px; */
   transform: scale(1.1);
-  box-shadow: 2px 1px 29px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 1px 29px 0 rgba(0, 0, 0, 0.75);
 }
 
 .design-info:hover .arrow {
@@ -241,10 +230,6 @@ figcaption {
 .design-info p {
   font-size: 25px;
   margin-top: 20px;
-}
-
-span {
-  text-decoration: underline;
 }
 
 .smashing-members {
@@ -269,8 +254,6 @@ span {
   width: 500px;
   margin: 0 auto;
   text-align: center;
-  color: #fff;
-
 }
 
 .singing-barista button {
@@ -282,7 +265,6 @@ span {
   margin: 40px 0 40px 0;
 }
 
-
 .latest-articles-div {
   margin: 120px 0 120px 0;
 }
@@ -290,6 +272,10 @@ span {
 .latest-articles {
   width: 300px;
   margin: 0 auto;
+}
+
+footer a {
+  color: #fff;
 }
 
 .latest-articles a {
@@ -316,7 +302,6 @@ span {
 .shipping-now {
   width: 800px;
   margin: 0 auto;
-  color: #fff;
   text-align: center;
 }
 
@@ -344,6 +329,10 @@ span {
   margin: 0 0 20px 0;
 }
 
+.author-image {
+  border: 3px solid #a82d22;
+}
+
 .author-contents {
   margin: 0 auto;
   width: 400px;
@@ -369,7 +358,6 @@ span {
 
 .design-systems {
   margin-left: 50px;
-  color: #fff
 }
 
 .design-systems h2 {
@@ -419,7 +407,7 @@ span {
 .js-header h3 {
   font-size: 40px;
   text-decoration: underline;
-  color: #2CAA72;
+  color: #2caa72;
   margin-bottom: 30px;
 }
 
@@ -434,8 +422,7 @@ span {
   border-radius: 10px;
   font-size: 20px;
   font-weight: bold;
-  background-color: #2CAA72;
-  color: #fff;
+  background-color: #2caa72;
   margin-top: 50px;
   border: none;
 }
@@ -452,26 +439,26 @@ span {
   font-weight: bold;
   background-color: #ff5e38;
   margin-top: 50px;
-  border-radius : 10px;
+  border-radius: 10px;
   font-size: 20px;
   border: none;
-  color: #fff;
 }
 
 .smashing-guides-1 {
   width: 500px;
   height: 650px;
-  background-color:#fff;
+  background-color: #fff;
   margin-left: 50px;
   border-radius: 10px;
 }
 
-.web-header h3{
+.web-header h3 {
   font-size: 40px;
   text-decoration: underline;
   margin-bottom: 20px;
   color: #ac5795;
 }
+
 .sub-smashing-guides-1 {
   width: 450px;
   margin: 20px auto 0 auto;
@@ -485,13 +472,12 @@ span {
   font-weight: bold;
   margin-top: 50px;
   background-color: #ac5795;
-  color: #fff;
 }
 
 .newsletter {
   background-color: #1b71bb;
-  background-image: linear-gradient(#1b71bb 60%,#01a6c1 100%);
-} 
+  background-image: linear-gradient(#1b71bb 60%, #01a6c1 100%);
+}
 
 .smashing-content img {
   width: 500px;
@@ -501,11 +487,12 @@ span {
 .newsletter-section {
   width: 450px;
   margin: 0 auto;
-  color: #fff;
 }
+
 .newsletter-section p {
-  margin: 20px 0 ;
+  margin: 20px 0;
 }
+
 .email-header h3 {
   font-size: 40px;
   text-decoration: underline;
@@ -516,15 +503,14 @@ span {
   border-radius: 10px 10px 10px 0;
   position: relative;
   right: 33px;
-  border:none;
+  border: none;
   background-color: #0467b8;
-  color: #fff;
 }
 
 .meow-input {
   padding: 17px 35px;
   border-radius: 10px 0 10px 10px;
-  border:none;
+  border: none;
 }
 
 .frontend-ux {
@@ -532,12 +518,12 @@ span {
   width: 300px;
   height: 50px;
   margin: 0 auto;
-  border-radius: 10px;F
+  border-radius: 10px;
 }
 
 .frontend-ux p {
   line-height: 1.5em;
-  font-size : .9em;
+  font-size: 0.9em;
 }
 
 .see-all-guides {
@@ -546,16 +532,7 @@ span {
 
 footer {
   text-align: center;
-  color: #fff;
   height: 645px;
-}
-
-footer a {
-  color: #fff;
-}
-
-footer a:hover {
-  color: #fff;
 }
 
 footer ul li {
@@ -579,7 +556,6 @@ footer ul li {
 
 .browse-links li {
   font-size: 25px;
-
 }
 
 .bird-cage {
